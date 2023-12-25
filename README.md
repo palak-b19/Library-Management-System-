@@ -32,7 +32,7 @@ If a member is returning a book after the due date, the book will be returned an
 
 # Features
 
-\### For Librarians
+# For Librarians
 
 \- Register new library members.
 
