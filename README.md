@@ -4,7 +4,7 @@ If a member is returning a book after the due date, the book will be returned an
 
 [Project Overview](#project-overview)
 
-\ [Features](#features)
+ [Features](#features)
 
 `  `- [For Librarians](#for-librarians)
 
