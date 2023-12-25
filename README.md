@@ -4,7 +4,7 @@ If a member is returning a book after the due date, the book will be returned an
 
 [Project Overview](#project-overview)
 
-\- [Features](#features)
+\ [Features](#features)
 
 `  `- [For Librarians](#for-librarians)
 
@@ -30,7 +30,7 @@ If a member is returning a book after the due date, the book will be returned an
 
 `  `- [Librarian Class Functions](#librarian-class-functions)
 
-\## Features
+# Features
 
 \### For Librarians
 
@@ -46,7 +46,7 @@ If a member is returning a book after the due date, the book will be returned an
 
 \- List all available books in the library.
 
-\### For Members
+# For Members
 
 \- List available books for borrowing.
 
@@ -58,31 +58,31 @@ If a member is returning a book after the due date, the book will be returned an
 
 \- Pay fines accrued for overdue books.
 
-\## Class Structure
+# Class Structure
 
-\### Main Class
+# Main Class
 
 The `Main` class serves as the entry point for the application. It handles user interactions and manages the flow of the library management system.
 
-\### Book Class
+# Book Class
 
 The `Book` class represents individual books in the library. It stores information such as the book's title, author, total copies, and status. It also tracks borrowing and return times for fine calculation.
 
-\### Member Class
+# Member Class
 
 The `Member` class represents library members. It stores member details like name, age, phone number, and fine. It also maintains a list of books borrowed by the member.
 
-\### Librarian Class
+# Librarian Class
 
 The `Librarian` class manages library operations. It maintains collections of members and books and provides functionalities for librarians to register/remove members, add/remove books, and handle fines. It also allows librarians to view members' borrowing history and available books.
 
-\## Functionality Overview
+# Functionality Overview
 
-\### Main Class Functions
+# Main Class Functions
 
 1\. `main(String[] args)`: The main entry point of the application. Handles user interactions and navigates between librarian and member functionalities.
 
-\### Book Class Functions
+# Book Class Functions
 
 1\. `Book(int id, String author, int totalCopies, String title)`: Constructor to create a book object with specified details.
 
@@ -96,7 +96,7 @@ The `Librarian` class manages library operations. It maintains collections of me
 
 6\. `getReturnTime()`: Get the time when the book was returned.
 
-\### Member Class Functions
+# Member Class Functions
 
 1\. `Member(String name, int age, String phoneNumber)`: Constructor to create a member object with personal information.
 
@@ -106,7 +106,7 @@ The `Librarian` class manages library operations. It maintains collections of me
 
 4\. `List\_My\_Books()`: List books borrowed by the member.
 
-\### Librarian Class Functions
+# Librarian Class Functions
 
 1\. `Adding\_Member(Member m)`: Register a new library member.
 
@@ -134,7 +134,7 @@ The `Librarian` class manages library operations. It maintains collections of me
 
 13\. `FinePaid(Member member)`: Allow a member to pay fines.
 
-\## Usage
+# Usage
 
 1\. Run the `Main` class to start the Library Management System.
 
